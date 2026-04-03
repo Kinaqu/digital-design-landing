@@ -8,18 +8,19 @@
 }
 
 :root {
-  --color-ink: #09090c;
-  --color-paper: #f5efe8;
-  --color-muted: rgba(245, 239, 232, 0.56);
-  --color-accent: #c6a67a;
+  --color-ink: #0a0a0d;
+  --color-paper: #f4efe7;
+  --color-muted: rgba(244, 239, 231, 0.56);
+  --color-accent: #bc925f;
   --color-card: rgba(255, 255, 255, 0.05);
   --color-border: rgba(255, 255, 255, 0.08);
-  --color-border-strong: rgba(198, 166, 122, 0.28);
+  --color-border-strong: rgba(188, 146, 95, 0.28);
 
   font-family: var(--font-sans);
   color: var(--color-paper);
   background:
-    radial-gradient(circle at top, rgba(198, 166, 122, 0.08), transparent 24%),
+    radial-gradient(circle at top, rgba(188, 146, 95, 0.08), transparent 24%),
+    radial-gradient(circle at 82% 6%, rgba(80, 60, 76, 0.14), transparent 16%),
     var(--color-ink);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -55,7 +56,7 @@ select {
 }
 
 ::selection {
-  background: rgba(198, 166, 122, 0.28);
+  background: rgba(188, 146, 95, 0.28);
   color: var(--color-paper);
 }
 
