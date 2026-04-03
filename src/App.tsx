@@ -185,7 +185,7 @@ function App() {
               <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
                 <a
                   href="#contact"
-                  className="inline-flex items-center justify-center gap-3 rounded-full bg-[var(--color-paper)] px-6 py-3.5 text-sm font-medium text-[var(--color-ink)] transition hover:translate-y-[-1px] hover:bg-white"
+                  className="inline-flex items-center justify-center gap-3 rounded-full bg-[#f5efe8] px-6 py-3.5 text-sm font-semibold text-[#09090c] shadow-[0_18px_40px_rgba(0,0,0,0.28)] transition hover:translate-y-[-1px] hover:bg-white"
                 >
                   Book studio call
                   <ArrowRight className="h-4 w-4" />
@@ -476,18 +476,19 @@ function App() {
         <section id="contact" className="px-6 pb-20 sm:px-8 md:pb-28 lg:px-10">
           <div className="mx-auto w-full max-w-7xl overflow-hidden rounded-[2.5rem] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.09),rgba(255,255,255,0.03))]">
             <div className="relative px-6 py-14 sm:px-10 sm:py-16 lg:px-14">
+              <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(180deg,rgba(9,9,12,0.08),rgba(9,9,12,0.3))]" />
               <AnimatedGridPattern
                 numSquares={24}
-                maxOpacity={0.08}
+                maxOpacity={0.045}
                 duration={6}
                 repeatDelay={1.2}
                 className={cn(
                   'mask-[radial-gradient(520px_circle_at_center,white,transparent)]',
-                  'inset-0 text-[color:rgba(255,255,255,0.28)]',
+                  'inset-0 text-[color:rgba(255,255,255,0.16)]',
                 )}
               />
               <div className="relative flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
-                <div className="max-w-3xl">
+                <div className="max-w-3xl rounded-[2rem] bg-[rgba(9,9,12,0.44)] p-5 shadow-[0_20px_60px_rgba(0,0,0,0.22)] backdrop-blur-md sm:p-6">
                   <p className="font-mono text-[0.72rem] uppercase tracking-[0.32em] text-[var(--color-muted)]">
                     Start the brief
                   </p>
@@ -499,7 +500,7 @@ function App() {
 
                 <a
                   href="mailto:hello@digitaldesign.studio"
-                  className="inline-flex items-center justify-center gap-3 rounded-full bg-[var(--color-paper)] px-6 py-3.5 text-sm font-medium text-[var(--color-ink)] transition hover:translate-y-[-1px]"
+                  className="inline-flex items-center justify-center gap-3 self-start rounded-full bg-[#f5efe8] px-6 py-3.5 text-sm font-semibold text-[#09090c] shadow-[0_18px_40px_rgba(0,0,0,0.28)] transition hover:translate-y-[-1px] hover:bg-white lg:self-auto"
                 >
                   hello@digitaldesign.studio
                   <ArrowUpRight className="h-4 w-4" />
