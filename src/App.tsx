@@ -186,6 +186,7 @@ function App() {
                 <a
                   href="#contact"
                   className="inline-flex items-center justify-center gap-3 rounded-full bg-[#f5efe8] px-6 py-3.5 text-sm font-semibold text-[#09090c] shadow-[0_18px_40px_rgba(0,0,0,0.28)] transition hover:translate-y-[-1px] hover:bg-white"
+                  style={{ color: '#09090c' }}
                 >
                   Book studio call
                   <ArrowRight className="h-4 w-4" />
@@ -501,6 +502,7 @@ function App() {
                 <a
                   href="mailto:hello@digitaldesign.studio"
                   className="inline-flex items-center justify-center gap-3 self-start rounded-full bg-[#f5efe8] px-6 py-3.5 text-sm font-semibold text-[#09090c] shadow-[0_18px_40px_rgba(0,0,0,0.28)] transition hover:translate-y-[-1px] hover:bg-white lg:self-auto"
+                  style={{ color: '#09090c' }}
                 >
                   hello@digitaldesign.studio
                   <ArrowUpRight className="h-4 w-4" />
